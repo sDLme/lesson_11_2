@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+
+body .modal {
+    display: none;
+    position: absolute;
+    top: 100px;
+    width: 400px;
+    padding: 10px;
+    height: 300px;
+    left: 35%;
+    background: white;
+}
+
+body .modal .hide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    background: red;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+body header {
+    background: #2ecc71;
+    width: 100%;
+    height: 600px;
+}
+
+body header .navbar2 {
+    padding-top: 15px !important;
+}
+
+body header .navbar2 .navbar-brand {
+    color: white;
+}
+
+body header .navbar2 .collapse {
+    font-size: 14px;
+}
+
+body header .navbar2 .collapse ul li {
+    padding: 0 10px;
+    color: white;
+}
+
+body header .navbar2 .collapse ul li a {
+    color: white;
+}
+
+body header .navbar2 .collapse ul .get-app {
+    padding: 0 21px;
+    border-radius: 25px;
+    background: white;
+    color: #2ecc71;
+}
+
+body header .navbar2 .collapse ul .get-app a {
+    color: #2ecc71;
+}
+
+body header h2 {
+    font-size: 38px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 20px;
+}
+
+body header p {
+    font-size: 12px;
+    color: white;
+    width: 390px;
+}
+
+body .store-link {
+    margin-top: 35px;
+}
+
+body .store-link img {
+    height: 32px !important;
+}
+
+body .store-link img:nth-child(2) {
+    margin-left: 20px;
+}
+
+body .app-side-left {
+    padding-top: 49px;
+    position: relative;
+}
+
+body .app-side-left .app-icon {
+    float: left;
+}
+
+body .app-side-left .app-icon img {
+    margin-bottom: 40px;
+    height: 64px;
+}
+
+body .iphone {
+    position: absolute;
+    right: 30px;
+    height: 490px;
+}
+
+body .second-section {
+    margin: 50px 0 50px 0;
+    background: white;
+    height: 700px;
+}
+
+body .second-section .phone {
+    height: 640px;
+    margin-top: 30px;
+}
+
+body .second-section .round {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+body .second-section .round .green {
+    background: #2ecc71;
+}
+
+body .second-section .round i {
+    position: absolute;
+    padding: 25px;
+    background: #e7e7e7;
+    border-radius: 50%;
+    line-height: 18px;
+    color: white;
+    font-size: 19px;
+}
+
+body .second-section .round i:nth-child(1) {
+    top: 125px;
+    left: 70px;
+}
+
+body .second-section .round i:nth-child(2) {
+    top: 210px;
+    left: 180px;
+}
+
+body .second-section .round i:nth-child(3) {
+    top: 325px;
+    left: 230px;
+}
+
+body .second-section .round i:nth-child(4) {
+    top: 440px;
+    left: 180px;
+}
+
+body .second-section .round i:nth-child(5) {
+    top: 525px;
+    left: 70px;
+}
+
+body .second-section .round i:hover {
+    background: #2ecc71;
+}
+
+body .second-section .text {
+    margin-top: 320px;
+    margin-left: 80px;
+}
+
+body .second-section .text h3 {
+    color: #232326;
+}
+
+body .second-section .text span {
+    color: #2ecc71;
+}
+
+body .second-section .text p {
+    font-size: 13px;
+}
+
+body .third-section {
+    padding-top: 50px;
+    height: 750px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+body .third-section span {
+    color: #2ecc71;
+}
+
+body .third-section p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+body .third-section .phones {
+    height: 300px;
+    margin-top: 50px;
+}
+
+body .third-section .phones img {
+    height: 500px;
+}
+
+body .four-section {
+    height: 500px;
+    background: white;
+}
+
+body .four-section .text {
+    margin-top: 200px;
+}
+
+body .four-section .text h2 span {
+    color: #2ecc71;
+}
+
+body .four-section .text p {
+    font-size: 13px;
+}
+
+body .four-section .blocks {
+    margin-top: 75px;
+}
+
+body .four-section .blocks div {
+    overflow: hidden;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #b9abb4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+body .four-section .blocks div .food {
+    display: block;
+    float: left;
+}
+
+body .four-section .blocks div .food .big {
+    height: 77px;
+}
+
+body .four-section .blocks div .food img {
+    height: 65px;
+}
+
+body .four-section .blocks div .desc {
+    float: left;
+    font-size: 12px;
+    display: block;
+    margin-left: 10px;
+}
+
+body .four-section .blocks div .desc .big {
+    font-size: 21px !important;
+}
+
+body .four-section .blocks div .desc p {
+    margin-bottom: 3px;
+}
+
+body .four-section .blocks div .desc p:nth-child(1) {
+    color: #2ecc71;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+body .four-section .blocks div .desc p:nth-child(3) {
+    color: #2ecc71;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+body .four-section .blocks div .time {
+    float: right;
+    color: #2ecc71;
+    display: block;
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+}
+
+body .four-section .blocks div .big {
+    font-size: 21px;
+}
+
+body .four-section .blocks div .pm {
+    color: #0c0b0c;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+
+body .four-section .blocks div:nth-child(1n) {
+    width: 350px;
+}
+
+body .four-section .blocks div:nth-child(2n) {
+    width: 400px;
+}
+
+body .download-section {
+    height: 300px;
+    background: #2ecc71;
+    text-align: center;
+    padding: 70px 0;
+}
+
+body .download-section h2 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+body .download-section p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+}
+
+body .download-section button {
+    margin-top: 30px;
+    background: white;
+    padding: 5px 45px;
+    border: none;
+    font-size: 13px;
+    border-radius: 17px;
+}
+
+@media (max-width: 576px) {
+    header, .second-section, .third-section, .four-section, .download-section {
+        height: auto !important;
+    }
+
+    header .iphone {
+        height: 108px !important;
+    }
+
+    .blocks div {
+        width: 100% !important;
+    }
+
+    .third-section .phones img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .second-section {
+        text-align: center;
+    }
+
+    .second-section .phone {
+        height: 290px !important;
+    }
+
+    .second-section .round {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative !important;
+        width: 100% !important;
+        height: 100% !important;
+        text-align: center !important;
+    }
+
+    .second-section .round i {
+        position: static !important;
+        padding: 18px !important;
+        background: #e7e7e7 !important;
+        border-radius: 50% !important;
+        line-height: 18px !important;
+        color: white !important;
+        font-size: 19px !important;
+        display: inline-block !important;
+    }
+
+    .second-section .text {
+        margin: 0 !important;
+    }
+
+    .four-section .text {
+        margin-top: 60px !important;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
