@@ -9,7 +9,7 @@ body {
 body .modal {
     display: none;
     position: absolute;
-    top: 99px;
+    top: 99px; изменила 
     width: 400px;
     padding: 10px;
     height: 300px;
